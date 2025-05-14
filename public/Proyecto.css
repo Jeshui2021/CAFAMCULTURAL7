@@ -1,13 +1,13 @@
 html {
-    scroll-behavior: smooth; /* Enable smooth scrolling */
+    scroll-behavior: smooth; 
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: white; /* Make all text white */
-    background-color: #001f3f; /* Navy blue background */
+    color: white; 
+    background-color: #001f3f; 
 }
 
 header {
@@ -33,8 +33,8 @@ header {
     align-items: center;
     gap: 15px;
     padding: 10px 0;
-    background-color: #001f3f; /* Match the header background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
+    background-color: #001f3f; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 #menu {
@@ -47,16 +47,16 @@ header {
     text-decoration: none;
     font-size: 1rem;
     padding: 10px 20px;
-    border-radius: 20px; /* Rounded buttons */
+    border-radius: 20px; 
     background-color: #003366;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add button shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #botonesder a:hover {
     background-color: #00509e;
-    transform: scale(1.1); /* Slightly enlarge on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
 
 .cta-button {
@@ -130,8 +130,8 @@ header {
 
 #destacados {
     padding: 50px 20px;
-    background-color: #001f3f; /* Ensure all sections have the same navy blue background */
-    color: white; /* Ensure all text is white */
+    background-color: #001f3f;
+    color: white;
     text-align: center;
 }
 
@@ -148,7 +148,7 @@ header {
 }
 
 .card {
-    background-color: #003366; /* Navy blue for cards */
+    background-color: #003366; 
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     overflow: hidden;
@@ -165,19 +165,19 @@ header {
 .card h3 {
     font-size: 1.5rem;
     margin: 15px 0;
-    color: white; /* Ensure text is white */
+    color: white; 
 }
 
 .card p {
     padding: 0 15px 15px;
     font-size: 1rem;
-    color: white; /* Ensure text is white */
+    color: white;
 }
 
 #reservas {
     padding: 50px 20px;
-    background-color: #001f3f; /* Ensure all sections have the same navy blue background */
-    color: white; /* Ensure all text is white */
+    background-color: #001f3f; 
+    color: white;
     text-align: center;
 }
 
@@ -196,7 +196,7 @@ header {
     font-size: 1rem;
     margin-bottom: 5px;
     display: block;
-    color: white; /* Ensure text is white */
+    color: white; 
 }
 
 #reservas input, #reservas textarea {
@@ -205,8 +205,8 @@ header {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #003366; /* Navy blue for input fields */
-    color: white; /* Ensure text is white */
+    background-color: #003366; 
+    color: white; 
 }
 
 #reservas button {
@@ -226,8 +226,8 @@ header {
 
 #historia {
     padding: 50px 20px;
-    background-color: #001f3f; /* Ensure all sections have the same navy blue background */
-    color: white; /* Ensure all text is white */
+    background-color: #001f3f; 
+    color: white;
     text-align: center;
 }
 
@@ -254,44 +254,44 @@ header {
     line-height: 1.8;
     max-width: 800px;
     text-align: justify;
-    color: white; /* Ensure text is white */
+    color: white; 
 }
 
 #about aside {
-    text-align: center; /* Center the text */
+    text-align: center; 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically */
+    align-items: center; 
+    justify-content: center; 
 }
 
 #about aside p {
-    color: white; /* Keep the text white */
+    color: white;
     margin-top: 20px;
-    font-size: 1.2rem; /* Slightly larger font size */
-    line-height: 1.8; /* Adjust line height for better readability */
-    max-width: 80%; /* Limit the width of the text */
+    font-size: 1.2rem; 
+    line-height: 1.8; 
+    max-width: 80%;
 }
 
 #contenido {
     display: flex;
-    flex-direction: column; /* Stack the image and text vertically */
+    flex-direction: column; 
     align-items: center;
     gap: 20px;
     margin-top: 20px;
 }
 
 #contenido article {
-    width: 80%; /* Center the image and limit its width */
+    width: 80%; 
 }
 
 #contenido aside {
-    width: 80%; /* Center the text and limit its width */
+    width: 80%; 
     text-align: justify;
 }
 
 #contenido aside p {
-    color: white; /* Ensure text is white */
+    color: white; 
     margin-top: 20px;
     font-size: 1rem;
     line-height: 1.6;
@@ -308,14 +308,14 @@ footer {
     #botonesder {
         justify-content: center;
         flex-wrap: wrap; 
-        padding: 10px; /* Adjust padding */
+        padding: 10px;
     }
 
     #botonesder a {
         left: 0;
         margin-left: 10px;
-        font-size: 0.9rem; /* Reduce font size */
-        padding: 8px 15px; /* Adjust padding for buttons */
+        font-size: 0.9rem; 
+        padding: 8px 15px; 
     }
 
     #botonesder img {
@@ -339,49 +339,49 @@ footer {
     }
 
     #hero img {
-        height: auto; /* Ensure the image scales properly */
+        height: auto;
     }
 
     .hero-text h1 {
-        font-size: 2.5rem; /* Reduce font size */
+        font-size: 2.5rem; 
     }
 
     .hero-text p {
-        font-size: 1.2rem; /* Reduce font size */
+        font-size: 1.2rem; 
     }
 
     #contenido article, #contenido aside {
-        width: 90%; /* Adjust width for smaller screens */
+        width: 90%; 
     }
 
     .grid {
-        flex-direction: column; /* Stack cards vertically */
-        gap: 15px; /* Reduce gap between cards */
+        flex-direction: column;
+        gap: 15px;
     }
 
     .card {
-        width: 90%; /* Adjust card width */
+        width: 90%; 
     }
 
     #reservas form {
-        width: 90%; /* Adjust form width */
+        width: 90%;
     }
 
     #reservas input, #reservas textarea {
-        font-size: 0.9rem; /* Adjust input font size */
+        font-size: 0.9rem; 
     }
 }
 
 @media (max-width: 480px) {
     #botonesder {
-        flex-direction: column; /* Stack buttons vertically */
-        align-items: center; /* Center-align buttons */
-        gap: 10px; /* Reduce gap between buttons */
+        flex-direction: column; 
+        align-items: center; 
+        gap: 10px; 
     }
 
     #botonesder a {
-        font-size: 0.8rem; /* Further reduce font size */
-        padding: 6px 10px; /* Adjust padding for buttons */
+        font-size: 0.8rem; 
+        padding: 6px 10px; 
     }
 
     #botonesder img {
@@ -407,7 +407,7 @@ footer {
     }
 
     #contenido aside p {
-        font-size: 0.9rem; /* Reduce paragraph font size */
+        font-size: 0.9rem; 
     }
 
     #about h1, #historia h2, #destacados h2, #reservas h2 {
@@ -415,40 +415,40 @@ footer {
     }
 
     .hero-text h1 {
-        font-size: 2rem; /* Further reduce font size */
+        font-size: 2rem;
     }
 
     .hero-text p {
-        font-size: 1rem; /* Further reduce font size */
+        font-size: 1rem; 
     }
 
     #contenido article, #contenido aside {
-        width: 100%; /* Use full width */
+        width: 100%; 
     }
 
     .grid {
-        flex-direction: column; /* Stack cards vertically */
-        gap: 10px; /* Reduce gap between cards */
+        flex-direction: column;
+        gap: 10px; 
     }
 
     .card {
-        width: 100%; /* Use full width for cards */
+        width: 100%;
     }
 
     #reservas form {
-        width: 100%; /* Use full width for the form */
+        width: 100%; 
     }
 
     #reservas input, #reservas textarea {
-        font-size: 0.8rem; /* Further reduce input font size */
+        font-size: 0.8rem; 
     }
 
     footer h3 {
-        font-size: 1.2rem; /* Adjust footer heading size */
+        font-size: 1.2rem; 
     }
 
     footer p {
-        font-size: 0.8rem; /* Adjust footer paragraph size */
+        font-size: 0.8rem; 
     }
 }
 
