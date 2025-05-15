@@ -4,7 +4,6 @@
   "description": "CAFAM CULTURAL",
   "main": "index.js",
   "scripts": {
-    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +18,8 @@
   },
   "homepage": "https://github.com/Jeshui2021/CAFAMCULTURAL7#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
   }
 }

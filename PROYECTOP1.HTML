@@ -109,5 +109,44 @@
         <h3>San Pedro de Macorís - Turismo</h3>
         <p>Contacto: Jeshua Estarlin Duran Marte | 849-207-5323 | Jeshui2021@Gmail.com</p>
     </footer>
+
+
+    <script>
+document.getElementById("formReserva").addEventListener("submit", async function (event) {
+    event.preventDefault(); // Evita el refresco de página
+
+    const data = {
+        nombre: document.getElementById("nombre").value,
+        correo_electronico: document.getElementById("correo_electronico").value,
+        fecha_entrada: document.getElementById("fecha_entrada").value,
+        fecha_salida: document.getElementById("fecha_salida").value,
+        numero_habitaciones: document.getElementById("numero_habitaciones").value,
+        comentarios: document.getElementById("comentarios").value
+    };
+
+    try {
+        const response = await fetch("http://localhost:4000/api/reservas", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+            alert("✅ Reserva registrada correctamente. ID: " + result.id_reserva);
+        } else {
+            alert("❌ Error: " + result.message);
+        }
+
+    } catch (error) {
+        alert("⚠️ Error de conexión con el servidor.");
+        console.error(error);
+    }
+});
+</script>
+
 </body>
 </html>
